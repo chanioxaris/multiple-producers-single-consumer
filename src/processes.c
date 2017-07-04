@@ -186,7 +186,7 @@ int processes(number_p, steps)
 		char *parent_message;
 		
 		/*Open file to read from*/
-		FILE *fp = fopen("test.txt", "r");	
+		FILE *fp = fopen("input.txt", "r");	
 		
 		if (!fp)
 			{
