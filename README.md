@@ -14,7 +14,7 @@ Shared memory is a method of inter-process communication (IPC) between different
 
 ### Semaphores
 
-Α semaphore is a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system such as a multiprogramming operating system. More specific i used four binaries semaphores, two for each array in shared memory, to control and synchronize the access in it.
+Α semaphore is a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system such as a multiprogramming operating system. More specific i used four binaries semaphores, two for each array in shared memory, to control and synchronize the access in it. Producers and consumer operate (up and down) on both semaphores of each array, in crossed model, so we can ensure that no process is gonna write on a full array or read from an empty array.
 
 
 ## Compile
