@@ -1,6 +1,9 @@
 ## Overview
 
 
+![Structure](https://github.com/chanioxaris/Processes-SharedMemory-Semaphores/blob/master/img/figure.png)
+
+
 ## Compile
 
 `./makefile`
