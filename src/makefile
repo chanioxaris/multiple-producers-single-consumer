@@ -1,6 +1,6 @@
 CC = gcc
 
-PROG = askisi1
+PROG = capitalize
 HDRS = processes.h
 SRCS = main.c processes.c
 
