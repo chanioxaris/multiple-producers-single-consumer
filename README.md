@@ -1,7 +1,10 @@
-# OS_ProcessesAndSharedMemory
+## Overview
 
 
-Creates 1 parent process and N child processes. 
-Each of them communicates with parent, and vice versa, via Shared memory.
-There is an implementation of semaphores to handle deadlocks which may occur.
-Makefile also included.
+## Compile
+
+`./makefile`
+
+## Usage
+
+`./capitalize -N [number of producers] -K [number of iterations]`
