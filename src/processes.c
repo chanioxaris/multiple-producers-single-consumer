@@ -7,6 +7,7 @@
 #include <sys/ipc.h>
 #include <sys/sem.h>
 #include <sys/shm.h>
+
 #include "processes.h"
 
 #define SHMSIZE 2048
@@ -103,7 +104,7 @@ int processes(number_p, steps)
 	for (i = 0 ; i < number_p ; i++)
 		{			
 		pid = fork();
-		//printf("ID is %d\n", pid);
+
 		if (pid == 0)
 			break;
 		}	

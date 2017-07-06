@@ -5,13 +5,13 @@
 
 int main(int argc, char* argv[])
 	{
+	int i, N, K;		
+				
 	if (argc != 5)
 		{
 		printf("Wrong input arguments! \n");
 		return -1;
-		}
-		
-	int i, N, K;	
+		}	
 	
 	for (i = 1 ; i < (argc-1) ; i++)
 		{
